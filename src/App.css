@@ -1,0 +1,36 @@
+.drum-machine{
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFFAF4;
+  padding-top: 200px;
+}
+
+.display{
+  background-color: #F6C391;
+  margin: 0 auto;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.drum-pad{
+  background-color: #E08E6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.drum-pad:hover{
+  opacity: 0.6;
+}
